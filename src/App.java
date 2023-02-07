@@ -1,5 +1,4 @@
-import java.util.Scanner; // import the Scanner class 
-
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
@@ -12,5 +11,3 @@ class Main {
     System.out.println("Username is: " + userName);        
   }
 }
-
-              
