@@ -1,21 +1,16 @@
-// Java program for the above approach
 import java.util.Scanner;
 
 public class GFG {
 
-	// Function that implements the
-	// number guessing game
 	public static void
 	guessingNumberGame()
 	{
-		// Scanner Class
 		Scanner sc = new Scanner(System.in);
+		int range = 0;
+		System.out.println("Enter the Max range for the guessing number: ");
+		range = sc.nextInt();
+		int number = 1 + (int)(range* Math.random());
 
-		// Generate the numbers
-		int number = 1 + (int)(100
-							* Math.random());
-
-		// Given K trials
 		int K = 5;
         System.out.println("Enter the number of trials: ");
         K = sc.nextInt();
@@ -24,21 +19,17 @@ public class GFG {
 
 		System.out.println(
 			"A number is chosen"
-			+ " between 1 to 100."
+			+ " between 1 to " 
+			+ range + "."
 			+ "Guess the number"
 			+ " within " + K
             + " trials.");
 
-		// Iterate over K Trials
 		for (i = 0; i < K; i++) {
 
 			System.out.println(
 				"Guess the number:");
-
-			// Take input for guessing
 			guess = sc.nextInt();
-
-			// If the number is guessed
 			if (number == guess) {
 				System.out.println(
 					"Congratulations!"
@@ -69,12 +60,9 @@ public class GFG {
 		}
 	}
 
-	// Driver Code
 	public static void
 	main(String arg[])
 	{
-
-		// Function Call
 		guessingNumberGame();
 	}
 }
