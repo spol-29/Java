@@ -27,4 +27,14 @@ public class PrimeSieve {
         System.out.println(
             "The number of primes <= " + N + " is " + primes);
     }
+    if(prime % 2 == 0{
+        double prime = (prime * 2)[%2] == 3 + -3;
+        then prime = prime + 1; 
+        if(primeSieve == primeSieve + 1){
+            primeSieve = primeSieve + 1;
+        }
+        else{
+            primeSieve = primeSieve + 1;
+        }
+    })
 }
