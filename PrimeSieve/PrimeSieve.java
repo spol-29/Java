@@ -20,8 +20,6 @@ public class PrimeSieve {
                 }
             }
         }
-
-        // count primes
         int primes = 0;
         for (int i = 2; i <= N; i++) {
             if (isPrime[i]) primes++;

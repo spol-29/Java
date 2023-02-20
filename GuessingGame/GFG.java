@@ -21,7 +21,7 @@ public class GFG {
 			"A number is chosen"
 			+ " between 1 to " 
 			+ range + "."
-			+ "Guess the number"
+			+ " Guess the number"
 			+ " within " + K
             + " trials.");
 
