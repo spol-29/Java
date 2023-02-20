@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class GFG {
 
 	public static void
-	guessingNumberGame() {
+	guessingNumberGame()
+	{
 		Scanner sc = new Scanner(System.in);
 		int range = 0;
 		System.out.println("Enter the Max range for the guessing number: ");
@@ -15,7 +16,7 @@ public class GFG {
 		int i, guess;
 		System.out.println("A number is chosen between 1 to " + range + ". Guess the number within " + K + " trials."); 
 		for (i = 0; i < K; i++) {
-			System.out.println("Trial Number: " + (i + 1));
+			System.out.println("Trial Number: " + (i+1));
 			System.out.println("Number of trials left: " + (K - i)); 
 			System.out.println("Guess the number:");
 			guess = sc.nextInt();
@@ -23,8 +24,7 @@ public class GFG {
 				System.out.println("Congratulations! You guessed the number.");
 				break; 
 			}
-			else if (number > guess
-					&& i != K - 1) {
+			else if (number > guess && i != K - 1) {
 				System.out.println("The number is greater than " + guess);
 			}
 			else if (number < guess && i != K - 1) {
@@ -39,7 +39,11 @@ public class GFG {
 		}
 	}
 
-	public static voidmain(String arg[]){
+	public static void
+	main(String arg[])
+	{
 		guessingNumberGame();
 	}
 }
+
+// Path: Java/PrimeSieve/PrimeSieve.java
