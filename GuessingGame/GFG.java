@@ -13,28 +13,26 @@ public class GFG {
 
 		int K = 5;
         System.out.println("Enter the number of trials: ");
-        K = sc.nextInt();
-
+        K = sc.nextInt(); 
 		int i, guess;
-
-		System.out.println(
+		System.out.println( 
 			"A number is chosen"
 			+ " between 1 to " 
 			+ range + "."
-			+ " Guess the number"
+			+ " Guess the number" 
 			+ " within " + K
-            + " trials.");
-
+            + " trials."); 
 		for (i = 0; i < K; i++) {
-
 			System.out.println(
 				"Guess the number:");
+			System.out.println("Trial: " + (i + 1));
+			System.out.println("Number of trials left: " + (K - i)); 
 			guess = sc.nextInt();
 			if (number == guess) {
 				System.out.println(
 					"Congratulations!"
 					+ " You guessed the number.");
-				break;
+				break; 
 			}
 			else if (number > guess
 					&& i != K - 1) {
@@ -42,8 +40,7 @@ public class GFG {
 					"The number is "
 					+ "greater than " + guess);
 			}
-			else if (number < guess
-					&& i != K - 1) {
+			else if (number < guess && i != K - 1) {
 				System.out.println(
 					"The number is"
 					+ " less than " + guess);
