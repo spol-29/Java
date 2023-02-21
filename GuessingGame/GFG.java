@@ -45,5 +45,3 @@ public class GFG {
 		guessingNumberGame();
 	}
 }
-
-// Path: Java/PrimeSieve/PrimeSieve.java
