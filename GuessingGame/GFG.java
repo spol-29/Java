@@ -45,8 +45,5 @@ public class GFG {
 		guessingNumberGame();
 	}
 }
-<<<<<<< HEAD
 
 //Guessing Game
-=======
->>>>>>> 12eb0d5881077e9ab02b0488a7a5a38d9bcd717f
