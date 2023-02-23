@@ -31,19 +31,16 @@ public class GFG {
 				System.out.println("The number is less than " + guess);
 			}
 		}
-
 		if (i == K) {
 			System.out.println("You have exhausted " +  K + " trials.");
 
 			System.out.println("The number was " + number);
-		}
+		} 
 	}
-
 	public static void
 	main(String arg[])
 	{
 		guessingNumberGame();
 	}
 }
-
-//Guessing Game
+//Guessing Game in Java
