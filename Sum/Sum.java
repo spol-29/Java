@@ -6,7 +6,6 @@ public class Sum {
       int a = readInput.nextInt();  
         int b = readInput.nextInt();  
         readInput.close();  
-        // It will return the sum of a and b.  
-        System.out.println("The sum of a and b is = " + Integer.sum(a, b));  
+        System.out.println("The sum of " + a + " and " + b + " is = " + Integer.sum(a, b));  
     }  
 }  

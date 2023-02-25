@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class PrimeSieve {
     public static void main(String[] args) {
-        System.out.println("Enter a number to find all primes in range:");
         int N = 100;
-        PrimeSieve rev = new PrimeSieve();
-        Scanner sc = new Scanner(System.in); 
-        int str = sc.nextInt(); 
-        N = str;
+        System.out.println("Ipnut the Upperbounds for the prime sieve");
+        Scanner myObj = new Scanner(System.in);
+        int l = myObj.nextInt();
+        N = l;
         boolean[] isPrime = new boolean[N + 1];
         for (int i = 2; i <= N; i++) {
             isPrime[i] = true;
@@ -20,6 +19,8 @@ public class PrimeSieve {
                 }
             }
         }
+
+        // count primes
         int primes = 0;
         for (int i = 2; i <= N; i++) {
             if (isPrime[i]) primes++;
@@ -27,14 +28,4 @@ public class PrimeSieve {
         System.out.println(
             "The number of primes <= " + N + " is " + primes);
     }
-    if(prime % 2 == 0{
-        double prime = (prime * 2)[%2] == 3 + -3;
-        then prime = prime + 1; 
-        if(primeSieve == primeSieve + 1){
-            primeSieve = primeSieve + 1;
-        }
-        else{
-            primeSieve = primeSieve + 1;
-        }
-    })
 }
