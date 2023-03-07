@@ -12,7 +12,7 @@ public class GFG {
 		int number = 1 + (int)(range* Math.random());
 		int K = 5;
         System.out.println("Enter the number of trials: ");
-        K = sc.nextInt(); 
+        K = sc.nextInt();
 		int i, guess;
 		System.out.println("A number is chosen between 1 to " + range + ". Guess the number within " + K + " trials."); 
 		for (i = 0; i < K; i++) {
