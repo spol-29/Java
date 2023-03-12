@@ -42,5 +42,5 @@ public class GFG {
 	{
 		guessingNumberGame();
 	}
-0}
+}
 //Guessing Game in Java
