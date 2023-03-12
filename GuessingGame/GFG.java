@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GFG {
 
-	public static void
+	pu30blic static void
 	guessingNumberGame()
 	{
 		Scanner sc = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class GFG {
 			else if (number < guess && i != K - 1) {
 				System.out.println("The number is less than " + guess);
 			}
-		}
+		} 
 		if (i == K) { 
 			System.out.println("You have exhausted " +  K + " trials.");
 
