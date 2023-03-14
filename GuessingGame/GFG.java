@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GFG {
 
-	pu30blic static void
+	public static void
 	guessingNumberGame()
 	{
 		Scanner sc = new Scanner(System.in);
