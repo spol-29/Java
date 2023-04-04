@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class GFG {
 
 	public static void
-	guessingNumberGame()
-	{
+	guessingNumberGame(){
 		Scanner sc = new Scanner(System.in);
 		int range = 0;
 		System.out.println("Enter the Max range for the guessing number: ");
@@ -32,14 +31,11 @@ public class GFG {
 			}
 		} 
 		if (i == K) { 
-			System.out.println("You have exhausted " +  K + " trials.");
-
+			System.out.println("You have exhausted " +  K + " trials."); 
 			System.out.println("The number was " + number);
 		} 
 	}
-	public static void
-	main(String arg[])
-	{
+	public static void main(String arg[]){
 		guessingNumberGame();
 	}
 }
