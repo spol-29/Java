@@ -30,7 +30,7 @@ public class GFG {
 				System.out.println("The number is less than " + guess);
 			}
 		} 
-		if (i == K) { 
+		if (i == K) {
 			System.out.println("You have exhausted " +  K + " trials."); 
 			System.out.println("The number was " + number);
 		} 
@@ -40,3 +40,4 @@ public class GFG {
 	}
 }
 //Guessing Game in Java
+not in the mood
