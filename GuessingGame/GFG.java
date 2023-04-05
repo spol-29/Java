@@ -40,4 +40,3 @@ public class GFG {
 	}
 }
 //Guessing Game in Java
-not in the mood
