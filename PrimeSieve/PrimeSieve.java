@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeSieve {
     public static void main(String[] args) {
         int N = 100;
-        System.out.println("Ipnut the Upperbounds for the prime sieve");
+        System.out.println("Input the upperbounds for the prime sieve");
         Scanner myObj = new Scanner(System.in);
         int l = myObj.nextInt();
         N = l;
